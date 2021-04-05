@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>view</title>
+</head>
+<body>
+<ul>
+    제목 : {{ article.title }}
+    <br>
+    저자 : {{ article.name }}
+    <br>
+    내용 : {{ article.contents }}
+    <br>
+    Email : {{ article.cdate|date:"D d M Y" }}
+    <br>
+</ul>
+</body>
+</html>
